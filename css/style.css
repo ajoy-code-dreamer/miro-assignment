@@ -1,0 +1,29 @@
+/* ===================== cdn import area ==================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* ===================== cdn import area ==================== */
+
+/* ======================== variable css start here ==================== */
+:root {
+  /* === colors variables === */
+  --primary-clr: #4262ff;
+  --headingText-clr: #4262ff;
+  --peraText-clr: #4262ff;
+  /* === colors variables === */
+
+  /* === font variables === */
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: ;
+  --fw-bold: 700;
+  --fw-semiBold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
+  /* === font variables === */
+
+  /* === methods variables === */
+  --transition: all 0.3s linear;
+  /* === methods variables === */
+}
+/* ======================== variable css end here ==================== */
