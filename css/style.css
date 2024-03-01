@@ -1,20 +1,23 @@
-/* ===================== cdn import area ==================== */
+/* ================== import area ================== */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-/* ===================== cdn import area ==================== */
+@import url(../fonts/Helvetica.ttf);
+/* ================== import area ================== */
 
-/* ======================== variable css start here ==================== */
+/* ================ variable css start here ============== */
 :root {
   /* === colors variables === */
+  --white-clr: #ffffff;
+  --black-clr: #000000;
   --primary-clr: #4262ff;
-  --headingText-clr: #4262ff;
-  --peraText-clr: #4262ff;
+  --headingText-clr: #050038;
+  --peraText-clr: rgba(5, 0, 56, 0.6);
   /* === colors variables === */
 
   /* === font variables === */
   --primary-font: "Inter", sans-serif;
-  --secondary-font: ;
+  --secondary-font: "Helvetica", sans-serif;
   --fw-bold: 700;
   --fw-semiBold: 600;
   --fw-medium: 500;
@@ -24,6 +27,136 @@
 
   /* === methods variables === */
   --transition: all 0.3s linear;
+  --uppercase: uppercase;
+  --capitalize: capitalize;
   /* === methods variables === */
 }
-/* ======================== variable css end here ==================== */
+/* ================ variable css end here ============== */
+
+/* ========== common css start here =========== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+menu {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.img_fluid {
+  width: 100%;
+  height: 100%;
+}
+.common_btn {
+  padding: 17px 22px;
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  color: var(--white-clr);
+  background-color: var(--primary-clr);
+  border: 1px solid var(--primary-clr);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn i {
+  font-size: 12px;
+  padding-left: 8px;
+}
+.common_btn:hover {
+  color: var(--primary-clr);
+  background-color: transparent;
+}
+
+/* ========== common css end here =========== */
+#navBar {
+  padding: 20px 30px;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.nav__menuWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-right: auto;
+}
+.language__changer,
+.nav__portalLinkItem,
+.nav__link {
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  color: var(--headingText-clr);
+  text-transform: var(--capitalize);
+  display: flex;
+  align-items: end;
+  column-gap: 10px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.nav__link i {
+  font-size: 12px;
+}
+.nav__portalLinkItem:hover,
+.nav__link:hover {
+  color: var(--primary-clr);
+}
+.nav__portalLinkWrapperMain {
+  margin-left: auto;
+}
+.portalLinkWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+.language__changer {
+  align-items: center;
+}
+.language__changer i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.language__changer,
+.nav__portalLinkItem {
+  font-family: var(--primary-font);
+}
