@@ -100,7 +100,7 @@ img {
   color: var(--primary-clr);
   background-color: transparent;
 }
-.sectionHeading {
+.commonSectionHeading {
   font-family: var(--primary-font);
   font-weight: var(--fw-bold);
   font-size: 48px;
@@ -479,8 +479,69 @@ img {
 }
 /* =============== report section css end here =============== */
 
-/* ===============  section css start here =============== */
-/* ===============  section css end here =============== */
+/* =============== workOne section css start here =============== */
+#workOne{
+  padding: 60px 0;
+}
+.work__sectionWrapper{
+  padding: 30px;
+}
+.work__title{
+  padding-bottom: 32px;
+}
+.work__workingCategoryWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 26px;
+}
+.work__workingCategory{
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 14px;
+  color: var(--headingText-clr);
+  padding: 13px 28px 15px 18px;
+  border: 1px solid #F2F2F2;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.work__workingCategory:hover{
+  background-color: #F1F3FD;
+}
+.work__categoryContentItem{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work__categoryContentWrapper{
+  max-width: 360px;
+  padding: 32px 40px 0 16px;
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+}
+.work__categoryTitle{
+  padding-bottom: 26px;
+}
+.work__categorySummary{
+  padding-bottom: 35px;
+}
+.work__btn{
+  font-family: var(--secondary-font);
+}
+.work__categoryImageWrapper{
+  max-width: 700px;
+}
+/* =============== workOne section css end here =============== */
 
 /* ===============  section css start here =============== */
 /* ===============  section css end here =============== */
