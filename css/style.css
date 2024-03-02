@@ -100,6 +100,12 @@ img {
   color: var(--primary-clr);
   background-color: transparent;
 }
+.sectionHeading {
+  font-family: var(--primary-font);
+  font-weight: var(--fw-bold);
+  font-size: 48px;
+  color: var(--headingText-clr);
+}
 
 /* ========== common css end here =========== */
 /* ============ navbar css start here ============= */
@@ -176,10 +182,6 @@ img {
   max-width: 440px;
 }
 .banner__title {
-  font-family: var(--primary-font);
-  font-weight: var(--fw-bold);
-  font-size: 48px;
-  color: var(--headingText-clr);
   padding-bottom: 16px;
 }
 .banner__summary {
@@ -215,6 +217,7 @@ img {
   padding-top: 12px;
   padding-bottom: 17px;
   border-radius: 32px;
+  font-size: 18px;
   -webkit-border-radius: 32px;
   -moz-border-radius: 32px;
   -ms-border-radius: 32px;
@@ -298,16 +301,11 @@ img {
 #collaborate {
   padding-top: 74px;
   padding-bottom: 32px;
-
 }
 .collaborate__sectionHeading {
   margin: 0 auto;
   max-width: 470px;
   text-align: center;
-  font-family: var(--primary-font);
-  font-weight: var(--fw-bold);
-  font-size: 48px;
-  color: var(--headingText-clr);
   padding-bottom: 12px;
   position: relative;
 }
@@ -369,15 +367,49 @@ img {
 .collaborate__btn.common_btn {
   padding: 12px 28px 14px;
   border-radius: 24px;
+  font-size: 18px;
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
   -ms-border-radius: 24px;
   -o-border-radius: 24px;
 }
+
 /* =============== collaborate section css end here =============== */
 
-/* ===============  section css start here =============== */
-/* ===============  section css end here =============== */
+/* =============== workTogether section css start here =============== */
+#workTogether {
+  padding: 60px 0;
+}
+.workTogether__sectionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.workTogether__contentPartWrapper {
+  max-width: 550px;
+}
+.workTogether_title {
+  max-width: 450px;
+  padding-bottom: 16px;
+}
+.workTogether__btn.common_btn,
+.banner__summary {
+  font-family: var(--primary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  color: var(--peraText-clr);
+  width: 453px;
+}
+.workTogether__btn.common_btn {
+  width: unset;
+  padding: unset;
+  background-color: unset;
+  color: var(--primary-clr);
+  border: unset;
+  margin-top: 40px;
+}
+
+/* =============== workTogether section css end here =============== */
 
 /* ===============  section css start here =============== */
 /* ===============  section css end here =============== */
