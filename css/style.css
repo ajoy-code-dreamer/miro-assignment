@@ -113,6 +113,12 @@ img {
   padding: 20px 30px;
   width: 100%;
   border-bottom: 1px solid #f0f0f0;
+  background-color: var(--white-clr);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5555555555;
+
 }
 .nav__wrapper {
   display: flex;
@@ -376,10 +382,12 @@ img {
 
 /* =============== collaborate section css end here =============== */
 
-/* =============== workTogether section css start here =============== */
+/* =============== workTogether and tools similar section css start here =============== */
+#tools,
 #workTogether {
   padding: 60px 0;
 }
+.tools__sectionWrapper,
 .workTogether__sectionWrapper {
   display: flex;
   align-items: center;
@@ -388,28 +396,55 @@ img {
 .workTogether__contentPartWrapper {
   max-width: 550px;
 }
+.tools_title,
 .workTogether_title {
   max-width: 450px;
   padding-bottom: 16px;
 }
-.workTogether__btn.common_btn,
-.banner__summary {
+.tools_details,
+.workTogether_details {
   font-family: var(--primary-font);
   font-weight: var(--fw-regular);
   font-size: 18px;
   color: var(--peraText-clr);
   width: 453px;
+  padding-bottom: 40px;
 }
+.tools__btn.common_btn,
 .workTogether__btn.common_btn {
-  width: unset;
+  font-family: var(--primary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
   padding: unset;
   background-color: unset;
   color: var(--primary-clr);
   border: unset;
-  margin-top: 40px;
 }
 
-/* =============== workTogether section css end here =============== */
+/* =============== workTogether and tools similar section css end here =============== */
+
+/* =============== tools section css start here =============== */
+.tools__imagePartWrapper{
+  max-width: 550px;
+}
+.tools__contentPartWrapper{
+  max-width: 465px;
+  margin-left: auto;
+}
+.tools_title{
+  max-width: 345px;
+}
+
+/* =============== tools section css end here =============== */
+
+/* ===============  section css start here =============== */
+/* ===============  section css end here =============== */
+
+/* ===============  section css start here =============== */
+/* ===============  section css end here =============== */
+
+/* ===============  section css start here =============== */
+/* ===============  section css end here =============== */
 
 /* ===============  section css start here =============== */
 /* ===============  section css end here =============== */
