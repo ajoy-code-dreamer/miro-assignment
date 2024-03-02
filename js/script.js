@@ -8,6 +8,7 @@ $(function(){
     slidesToScroll: 1,
     autoplay:true,
     arrows:false,
+    autoplaySpeed: 1000,
   });
     
 

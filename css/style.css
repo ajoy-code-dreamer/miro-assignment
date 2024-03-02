@@ -294,8 +294,87 @@ img {
 }
 /* =============== users section css end here =============== */
 
-/* ===============  section css start here =============== */
-/* ===============  section css end here =============== */
+/* =============== collaborate section css start here =============== */
+#collaborate {
+  padding-top: 74px;
+  padding-bottom: 32px;
+
+}
+.collaborate__sectionHeading {
+  margin: 0 auto;
+  max-width: 470px;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-weight: var(--fw-bold);
+  font-size: 48px;
+  color: var(--headingText-clr);
+  padding-bottom: 12px;
+  position: relative;
+}
+.collaborate__sectionHeading::after {
+  position: absolute;
+  content: "YOUR IDEA STARTS HERE";
+  font-family: var(--primary-font);
+  font-weight: var(--fw-bold);
+  color: #090909;
+  font-size: 12px;
+  padding: 5px;
+  top: -50px;
+  right: -66px;
+  width: 172px;
+  background-color: #ffd02f;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+}
+.collaborate__contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.collaborate__contentItem {
+  width: 360px;
+  padding: 23px 23px 44px 24px;
+}
+.collaborate__contentHeading {
+  font-family: var(--primary-font);
+  font-weight: var(--fw-bold);
+  font-size: 24px;
+  color: var(--headingText-clr);
+  padding-bottom: 30px;
+}
+.collaborate__contentSummary {
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  color: var(--peraText-clr);
+  line-height: 1.4;
+}
+.collaborate__link {
+  color: var(--primary-clr);
+}
+
+.collaborate__btnWrapper {
+  text-align: center;
+}
+.collaborate__btn.common_btn {
+  padding: 12px 28px 14px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+/* =============== collaborate section css end here =============== */
 
 /* ===============  section css start here =============== */
 /* ===============  section css end here =============== */
