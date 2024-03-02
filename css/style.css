@@ -323,8 +323,8 @@ img {
   color: #090909;
   font-size: 12px;
   padding: 5px;
-  top: -50px;
-  right: -66px;
+  top: -40%;
+  right: -14%;
   width: 172px;
   background-color: #ffd02f;
   border-radius: 8px;
@@ -437,8 +437,39 @@ img {
 
 /* =============== tools section css end here =============== */
 
-/* ===============  section css start here =============== */
-/* ===============  section css end here =============== */
+/* =============== report section css start here =============== */
+.report__sectionWrapper{
+  margin: 0 60px;
+  background: url(../images/report_sectionBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 237px 64px 239px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.report__contentWrapper{
+  text-align: center;
+}
+.report_title{
+  font-family: var(--primary-font);
+  font-weight: var(--fw-bold);
+  font-size: 22px;
+  color: var(--headingText-clr);
+  padding-bottom: 8px;
+}
+.report__summary{
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  color: var(--headingText-clr);
+  padding-bottom: 8px;
+}
+.report__btn.common_btn{
+  font-size: 14px;
+  padding: 10px 26px 12px;
+}
+/* =============== report section css end here =============== */
 
 /* ===============  section css start here =============== */
 /* ===============  section css end here =============== */
