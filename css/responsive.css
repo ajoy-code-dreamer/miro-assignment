@@ -162,6 +162,20 @@
   }
   /* === report === */
   /* === work 2 section === */
+  #workOne,
+  #workTwo{
+    padding:  0;
+  }
+  .work__sectionWrapper {
+    padding: 20px;
+}
+  .work__categoryContentWrapper {
+    padding: 12px 40px 0 10px;
+}
+.work__btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
   /* === work 2 section === */
   /* === team === */
   #team {
@@ -194,6 +208,10 @@
   .footer__sectionWrapper {
     padding: 0 20px;
   }
+  .footer__itemWrapper {
+    padding-bottom: 20px;
+    gap: 40px;
+}
   .footer__title {
     padding-bottom: 25px;
   }
