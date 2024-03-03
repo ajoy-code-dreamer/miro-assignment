@@ -406,6 +406,7 @@ img {
   font-weight: var(--fw-regular);
   font-size: 18px;
   color: var(--peraText-clr);
+  line-height: 1.4;
   width: 453px;
   padding-bottom: 40px;
 }
@@ -516,7 +517,7 @@ img {
 .work__workingCategory:hover {
   background-color: #f1f3fd;
 }
-.work__workingCategory.active{
+.work__workingCategory.active {
   background-color: #f1f3fd;
 }
 .work__categoryContentItem {
@@ -536,6 +537,7 @@ img {
 }
 .work__categorySummary {
   color: rgba(5, 0, 56, 0.7);
+  line-height: 1.4;
 }
 .work__btn {
   font-family: var(--secondary-font);
@@ -564,11 +566,11 @@ img {
 .work__categoryDetailsItem i {
   font-size: 12px;
 }
-.work__workingToolsTitle{
+.work__workingToolsTitle {
   color: var(--peraText-clr);
   padding-bottom: 14px;
 }
-.work__toolsItemWrapper{
+.work__toolsItemWrapper {
   display: flex;
   align-items: center;
   column-gap: 33px;
@@ -576,8 +578,64 @@ img {
 /* =============== workTwo section css end here =============== */
 
 /* =============== team section css start here =============== */
-
+#team {
+  padding: 60px 0;
+}
+.team__sectionHeading {
+  text-align: center;
+  padding-bottom: 24px;
+}
+.team__btnWrapper {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.team__btn.common_btn {
+  padding: 10px 32px 14px 35px;
+}
+.team__itemWrapper {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.team__item {
+  max-width: 360px;
+  height: 460px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.team__logo {
+  max-width: 288px;
+  max-height: 62px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 34px;
+}
+.team__summary {
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  color: var(--peraText-clr);
+  line-height: 1.4;
+}
+.team__memberWrapper {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  align-self: baseline;
+}
+.team__memberDetails {
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 14px;
+  color: var(--peraText-clr);
+  line-height: 1.5;
+}
 /* =============== team section css end here =============== */
 
-/* ===============  section css start here =============== */
-/* ===============  section css end here =============== */
+/* =============== footer section css start here =============== */
+
+/* =============== footer section css end here =============== */
