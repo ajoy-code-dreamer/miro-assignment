@@ -74,13 +74,17 @@
     right: 20px;
   }
   /* === banner === */
+  #banner {
+    padding: 30px 0;
+}
   .banner__SectionWrapper {
     justify-content: center;
     text-align: center;
-    padding: 0 20px;
   }
   .banner__title {
-    font-size: 28px;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .banner__summary {
     padding-right: unset;
@@ -95,16 +99,41 @@
     flex-direction: column;
     gap: 20px;
   }
+  .banner__imagePartWrapper {
+    padding: 0 20px;
+}
   /* === banner === */
+  /* === collaborate === */
+  .collaborate__sectionHeading::after {
+    right: 10%;
+    top: -60%;
+  }
+  .collaborate__sectionHeading {
+    font-size: 32px;
+  }
+  .collaborate__contentWrapper {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .collaborate__contentItem {
+    padding: 23px 23px 23px 24px;
+  }
+  .collaborate__contentHeading {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .collaborate__contentSummary {
+    font-size: 16px;
+  }
+  /* === collaborate === */
+  /* === workTogether === */
   
+  /* === workTogether === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
 /* ========================= device (sm 576 > 768) ========================= */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
-
-
   /* === banner === */
   .banner__SectionWrapper {
     justify-content: center;
@@ -118,14 +147,20 @@
     margin: 0 auto;
   }
   /* === banner === */
+  /* === collaborate === */
+  .collaborate__contentWrapper {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .collaborate__contentItem {
+    padding: 23px 23px 23px 24px;
+  }
+  /* === collaborate === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
 /* ========================= device (md 768 > 992) ========================= */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-
-
   /* === banner === */
   .banner__SectionWrapper {
     justify-content: center;
@@ -139,14 +174,20 @@
     margin: 0 auto;
   }
   /* === banner === */
+  /* === collaborate === */
+  .collaborate__contentWrapper {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .collaborate__contentItem {
+    padding: 23px 23px 23px 24px;
+  }
+  /* === collaborate === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
 /* ========================= device (lg 992 > 1200) ========================= */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-
-
   /* === banner === */
   .banner__SectionWrapper {
     justify-content: center;
@@ -159,6 +200,15 @@
     margin: 0 auto;
   }
   /* === banner === */
+   /* === collaborate === */
+  .collaborate__contentWrapper {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .collaborate__contentItem {
+    padding: 23px 23px 23px 24px;
+  }
+  /* === collaborate === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
