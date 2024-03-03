@@ -41,7 +41,9 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
+
 h1,
 h2,
 h3,
@@ -122,14 +124,19 @@ img {
   z-index: 5555555555;
 }
 .nav__wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: max-content 5fr;
   align-items: center;
   column-gap: 24px;
+}
+.nav__menuWrapperMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .nav__menuWrapper {
   display: flex;
   align-items: center;
-  column-gap: 16px;
+  gap: 16px;
   margin-right: auto;
 }
 .language__changer,
@@ -156,13 +163,12 @@ img {
 .nav__link:hover {
   color: var(--primary-clr);
 }
-.nav__portalLinkWrapperMain {
-  margin-left: auto;
-}
+
 .portalLinkWrapper {
+  justify-self: end;
   display: flex;
   align-items: center;
-  column-gap: 18px;
+  gap: 18px;
 }
 .language__changer {
   align-items: center;
@@ -175,6 +181,9 @@ img {
 .nav__portalLinkItem {
   font-family: var(--primary-font);
 }
+.collapse__menuIcon {
+  display: none;
+}
 /* ============ navbar css end here ============= */
 
 /* =============== banner section css start here =============== */
@@ -184,6 +193,7 @@ img {
 .banner__SectionWrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .banner__contentPartWrapper {
   max-width: 440px;
@@ -275,6 +285,7 @@ img {
 .banner__imagePartWrapper {
   max-width: 640px;
 }
+
 /* =============== banner section css end here =============== */
 
 /* =============== users section css start here =============== */
@@ -650,11 +661,12 @@ img {
 }
 .footer__itemWrapper {
   display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
   padding-bottom: 80px;
 }
 .footer__item:nth-child(1) {
   max-width: 312px;
-  margin-right: 60px;
 }
 .footer__title {
   font-weight: var(--fw-extraBold);
@@ -710,7 +722,6 @@ img {
 }
 .footer__item:nth-child(2) {
   width: 188px;
-  margin-right: 60px;
 }
 .footer__brandTitle {
   font-weight: var(--fw-extraBold);
