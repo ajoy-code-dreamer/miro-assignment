@@ -822,7 +822,7 @@ img {
   font-size: 15px;
 }
 .footer__input {
-  width: 254px;
+  max-width: 254px;
   border: 1px solid var(--white-clr);
   padding: 8px 16px;
   color: var(--peraText-clr);
@@ -833,7 +833,7 @@ img {
   -o-border-radius: 21px 0 0 21px;
 }
 .footer__btn {
-  width: 110px;
+  max-width: 110px;
   padding: 8px 27.5px;
   color: var(--white-clr);
   background-color: var(--headingText-clr);
