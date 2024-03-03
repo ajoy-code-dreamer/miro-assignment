@@ -140,7 +140,50 @@
   .workTogether_details {
     padding-bottom: 20px;
   }
+  #tools {
+    padding: 0;
+  }
   /* === workTogether and tools === */
+  /* === report === */
+
+  .report__sectionWrapper {
+    margin: unset;
+  }
+  .report__bgImage img {
+    opacity: 0;
+  }
+  .report__contentWrapper {
+    position: unset;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  /* === report === */
+  /* === work 2 section === */
+  /* === work 2 section === */
+  /* === team === */
+  #team {
+    padding: 30px 0;
+  }
+  .team__sectionWrapper {
+    padding: 0 20px;
+  }
+  .team__btnWrapper {
+    padding-bottom: 20px;
+  }
+  .team__itemWrapper {
+    justify-content: center;
+    padding: 0;
+  }
+  .team__item {
+    padding: 10px;
+  }
+  .team__logo {
+    margin-bottom: 14px;
+  }
+  .team__summary {
+    padding-bottom: 25px;
+  }
+  /* === team === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -191,6 +234,33 @@
     padding-bottom: 20px;
   }
   /* === workTogether and tools === */
+  /* === report === */
+  .report__sectionWrapper {
+    margin: 0 20px;
+  }
+  .report__contentWrapper {
+    padding-top: 10px;
+    max-width: 280px;
+    right: 10px;
+  }
+  /* === report === */
+  /* === work 2 section === */
+
+  /* === work 2 section === */
+  .team__itemWrapper {
+    justify-content: center;
+    padding: 0;
+  }
+  .team__item {
+    padding: 10px;
+  }
+  .team__logo {
+    margin-bottom: 14px;
+  }
+  .team__summary {
+    padding-bottom: 25px;
+  }
+  /* === team === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -242,6 +312,32 @@
     margin: 0 auto;
   }
   /* === workTogether and tools === */
+  /* === report === */
+  .report__sectionWrapper {
+    margin: 0 20px;
+  }
+  .report__contentWrapper {
+    padding-top: 10px;
+    max-width: 330px;
+    right: 10px;
+  }
+  /* === report === */
+  /* === work 2 section === */
+  /* === work 2 section === */
+  /* === work 2 section === */
+  /* === team === */
+  
+  .team__item {
+    max-width: 250px;
+    padding: 10px;
+  }
+  .team__logo {
+    margin-bottom: 14px;
+  }
+  .team__summary {
+    padding-bottom: 25px;
+  }
+  /* === team === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
@@ -289,6 +385,21 @@
     max-width: 550px;
   }
   /* === workTogether and tools === */
+  /* === work 2 section === */
+  /* === work 2 section === */
+  /* === team === */
+  
+  .team__item {
+    max-width: 300px;
+    padding: 10px;
+  }
+  .team__logo {
+    margin-bottom: 14px;
+  }
+  .team__summary {
+    padding-bottom: 25px;
+  }
+  /* === team === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
