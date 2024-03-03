@@ -126,19 +126,21 @@
     font-size: 16px;
   }
   /* === collaborate === */
-  /* === workTogether === */
+  /* === workTogether and tools === */
   #tools,
   #workTogether {
     padding: 30px 0;
   }
+  .tools__sectionWrapper,
   .workTogether__sectionWrapper {
     padding: 0 20px;
+    text-align: center;
   }
   .tools_details,
   .workTogether_details {
     padding-bottom: 20px;
   }
-  /* === workTogether === */
+  /* === workTogether and tools === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -166,16 +168,21 @@
     padding: 23px 23px 23px 24px;
   }
   /* === collaborate === */
-  /* === workTogether === */
+  /* === workTogether and tools === */
   #tools,
   #workTogether {
     padding: 30px 0;
   }
+  .tools_title {
+    margin: 0 auto;
+  }
+  .tools__sectionWrapper,
   .workTogether__sectionWrapper {
     text-align: center;
     padding: 0 20px;
     justify-content: center;
   }
+  .tools__contentPartWrapper,
   .workTogether__contentPartWrapper {
     margin: 0 auto;
   }
@@ -183,7 +190,7 @@
   .workTogether_details {
     padding-bottom: 20px;
   }
-  /* === workTogether === */
+  /* === workTogether and tools === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -211,23 +218,30 @@
     padding: 23px 23px 23px 24px;
   }
   /* === collaborate === */
-  /* === workTogether === */
+  /* === workTogether and tools === */
   #tools,
   #workTogether {
     padding: 30px 0;
   }
+  .tools__sectionWrapper,
   .workTogether__sectionWrapper {
     text-align: center;
     justify-content: center;
   }
-  .workTogether__contentPartWrapper {
+  .tools__contentPartWrapper .workTogether__contentPartWrapper {
     margin: 0 auto;
   }
   .tools_details,
   .workTogether_details {
     padding-bottom: 20px;
   }
-  /* === workTogether === */
+  .tools_title {
+    max-width: unset;
+  }
+  .tools__contentPartWrapper {
+    margin: 0 auto;
+  }
+  /* === workTogether and tools === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
@@ -254,13 +268,27 @@
     padding: 23px 23px 23px 24px;
   }
   /* === collaborate === */
-  /* === workTogether === */
+  /* === workTogether and tools === */
+  .tools__sectionWrapper,
   .workTogether__sectionWrapper {
     justify-content: center;
     text-align: center;
   }
-  /* === workTogether === */
-
+  .tools_title {
+    max-width: unset;
+  }
+  .tools__contentPartWrapper {
+    margin: 0 auto;
+  }
+  .tools__contentPartWrapper {
+    max-width: unset;
+    margin: 0 auto;
+  }
+  .tools_details {
+    margin: 0 auto;
+    max-width: 550px;
+  }
+  /* === workTogether and tools === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
