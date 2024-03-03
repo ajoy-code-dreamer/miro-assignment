@@ -43,7 +43,6 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
-
 h1,
 h2,
 h3,
@@ -194,6 +193,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 30px;
 }
 .banner__contentPartWrapper {
   max-width: 440px;
@@ -229,7 +229,6 @@ img {
   font-size: 18px;
   color: #5f5c80;
 }
-
 .banner__btn.common_btn {
   padding-top: 12px;
   padding-bottom: 17px;
@@ -257,7 +256,7 @@ img {
   -o-border-radius: 8px;
   display: flex;
   align-items: center;
-  column-gap: 28px;
+  gap: 28px;
 }
 .banner__reviewStartWrapper {
   display: flex;
@@ -285,7 +284,6 @@ img {
 .banner__imagePartWrapper {
   max-width: 640px;
 }
-
 /* =============== banner section css end here =============== */
 
 /* =============== users section css start here =============== */
@@ -703,14 +701,6 @@ img {
   font-weight: var(--fw-regular);
   font-size: 11px;
   color: var(--white-clr);
-  border-bottom: 1px solid var(--transparent);
-  transition: var(--transition);
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
-}
-.footer__policy:hover {
   border-bottom: 1px solid var(--white-clr);
 }
 .footer__copyright {

@@ -68,30 +68,97 @@
     display: block;
     justify-self: end;
   }
-
-  .banner__SectionWrapper {
-    justify-content: center;
-  }
   .close__icon {
     position: absolute;
     top: 20px;
     right: 20px;
   }
+  /* === banner === */
+  .banner__SectionWrapper {
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .banner__title {
+    font-size: 28px;
+  }
+  .banner__summary {
+    padding-right: unset;
+  }
+  .banner__form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+  .banner__reviewWrapper {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* === banner === */
+  
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
 /* ========================= device (sm 576 > 768) ========================= */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+  /* === banner === */
+  .banner__SectionWrapper {
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .banner__summary {
+    padding-right: unset;
+  }
+  .banner__reviewWrapper {
+    margin: 0 auto;
+  }
+  /* === banner === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
 /* ========================= device (md 768 > 992) ========================= */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+  /* === banner === */
+  .banner__SectionWrapper {
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .banner__summary {
+    padding-right: unset;
+  }
+  .banner__reviewWrapper {
+    margin: 0 auto;
+  }
+  /* === banner === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
 /* ========================= device (lg 992 > 1200) ========================= */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+  /* === banner === */
+  .banner__SectionWrapper {
+    justify-content: center;
+    text-align: center;
+  }
+  .banner__summary {
+    padding-right: unset;
+  }
+  .banner__reviewWrapper {
+    margin: 0 auto;
+  }
+  /* === banner === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
