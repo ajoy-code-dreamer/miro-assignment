@@ -644,7 +644,7 @@ img {
   background-color: #02033b;
 }
 .footer__sectionWrapper {
-  padding: 0 32px;
+  padding: 0 42px;
   font-family: var(--primary-font);
   color: var(--white-clr);
 }
