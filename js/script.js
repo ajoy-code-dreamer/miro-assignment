@@ -41,19 +41,16 @@ $(function(){
 // ============= javascript operation ==============
 // all selector 
 const navMenu = document.querySelector('.nav__menuWrapperMain')
-const collapseClose = document.querySelector('.close__icon i')
-
-const menuIcon = document.querySelector('.collapse__menuIcon i')
+const collapseClose = document.querySelector('.collapse__menuIcon i')
 // all selector 
 
-menuIcon.addEventListener('click',()=>{
-  navMenu.classList.toggle('menu__active')
-  menuIcon.classList.toggle('fa-xmark')
+// menu hide show 
+
+collapseClose.addEventListener('click',(e)=>{
+  navMenu.classList.toggle('nav__active')
+  collapseClose.classList.toggle('fa-xmark')
 })
-collapseClose.addEventListener('click',()=>{
-  navMenu.classList.toggle('menu__active')
-  menuIcon.classList.toggle('fa-xmark')
-})
+
 
 
 // ============= javascript operation ==============

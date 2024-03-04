@@ -124,13 +124,9 @@ img {
 }
 .nav__wrapper {
   display: grid;
-  grid-template-columns: max-content 5fr;
+  grid-template-columns: max-content 5fr 5fr;
   align-items: center;
   column-gap: 24px;
-}
-.nav__menuWrapperMain {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 .nav__menuWrapper {
   display: flex;
@@ -138,6 +134,20 @@ img {
   gap: 16px;
   margin-right: auto;
 }
+.nav__menuWrapperMain.nav__active {
+  left: 0px;
+  opacity: 1;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.close__menuIcon {
+  display: none;
+  font-size: 20px;
+}
+
 .language__changer,
 .nav__portalLinkItem,
 .nav__link {
@@ -155,6 +165,15 @@ img {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
+.language__changer{
+  column-gap: unset;
+}
+.portalLinkWrapper {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
 .nav__link i {
   font-size: 12px;
 }
@@ -162,19 +181,21 @@ img {
 .nav__link:hover {
   color: var(--primary-clr);
 }
-
-.portalLinkWrapper {
-  justify-self: end;
-  display: flex;
-  align-items: center;
-  gap: 18px;
+.portalLinkWrapper select {
+  appearance: none;
+  border: none;
+  padding: 10px;
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  color: var(--headingText-clr);
 }
+
 .language__changer {
   align-items: center;
 }
 .language__changer i {
   font-size: 20px;
-  margin-right: 5px;
 }
 .language__changer,
 .nav__portalLinkItem {
@@ -182,7 +203,16 @@ img {
 }
 .collapse__menuIcon {
   display: none;
+  height: 25px;
+  width: 25px;
 }
+.collapse__menuIcon i {
+  font-size: 20px;
+}
+.sm_hide {
+  display: none;
+}
+
 /* ============ navbar css end here ============= */
 
 /* =============== banner section css start here =============== */

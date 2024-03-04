@@ -24,18 +24,20 @@
     <!-- ================ navbar start here =============== -->
     <nav id="navBar">
       <div class="nav__wrapper">
-        <div class="nav__logo">
-          <a href="#">
-            <picture>
-              <img
-                src="./images/brand_logo.png"
-                alt="./images/brand_logo.png"
-                title="logo"
-                class="img_fluid"
-              />
-            </picture>
-          </a>
-        </div>
+        <!-- logo -->
+        <a href="#" class="nav__logo">
+          <picture>
+            <img
+              src="./images/brand_logo.png"
+              alt="./images/brand_logo.png"
+              title="logo"
+              class="img_fluid"
+            />
+          </picture>
+        </a>
+        <!-- logo -->
+
+        <!-- main menu -->
         <div class="nav__menuWrapperMain">
           <ul class="nav__menuWrapper">
             <li class="nav__menuItem">
@@ -59,29 +61,46 @@
             <li class="nav__menuItem">
               <a href="#" class="nav__link">Pricing</a>
             </li>
-          </ul>
-          <ul class="portalLinkWrapper">
-            <li class="language__changer">
-              <i class="fa-solid fa-globe"></i>
-              EN
-            </li>
-            <li>
-              <a href="#" class="nav__portalLinkItem">Contact Sales</a>
-            </li>
-            <li>
+            <li class="sm_hide">
               <a href="#" class="nav__portalLinkItem">Login</a>
             </li>
-            <li>
+            <li class="sm_hide">
               <a href="#" class="nav__btn common_btn"
                 >Sign up free
                 <i class="fa-solid fa-arrow-right-long"></i>
               </a>
             </li>
           </ul>
-          <div class="close__menuIcon">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
+        
         </div>
+
+        <!-- main menu -->
+
+        <!-- 2nd menu -->
+
+        <ul class="portalLinkWrapper">
+          <li class="language__changer">
+            <i class="fa-solid fa-globe"></i>
+          <select name="lang" id="">
+            <option value="EN">EN</option>
+            <option value="BN">BN</option>
+            <option value="CN">CN</option>
+          </select>
+          </li>
+          <li>
+            <a href="#" class="nav__portalLinkItem">Contact Sales</a>
+          </li>
+          <li class="lg_hide">
+            <a href="#" class="nav__portalLinkItem">Login</a>
+          </li>
+          <li class="lg_hide">
+            <a href="#" class="nav__btn common_btn"
+              >Sign up free
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- 2nd menu -->
         <div class="collapse__menuIcon">
           <i class="fa-solid fa-bars"></i>
         </div>
