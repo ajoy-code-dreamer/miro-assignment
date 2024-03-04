@@ -165,7 +165,7 @@ img {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.language__changer{
+.language__changer {
   column-gap: unset;
 }
 .portalLinkWrapper {
@@ -526,7 +526,9 @@ img {
 /* =============== workOne section css start here =============== */
 #workOne {
   padding: 60px 0;
+  overflow-x: hidden;
 }
+
 .work__sectionWrapper {
   padding: 30px;
 }
@@ -565,10 +567,33 @@ img {
   background-color: #f1f3fd;
 }
 .work__categoryContentItem {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 30px;
+  display: none;
+}
+.work__categoryContentItem.workOne__active{
+  display: flex;
+  animation: workOne 0.3s ease-in-out;
+  -webkit-animation: workOne 0.3s ease-in-out;
+}
+@keyframes workOne {
+  from{
+    transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    opacity: 0;
+}to{
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  opacity: 1;
+}
+  
 }
 .work__categoryContentWrapper {
   max-width: 360px;
@@ -881,3 +906,5 @@ img {
 }
 
 /* =============== footer section css end here =============== */
+
+ /* === >>>>> Design by Ajoy Saha <<<<< === */

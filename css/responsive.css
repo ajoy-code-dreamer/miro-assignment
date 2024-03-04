@@ -157,6 +157,13 @@
     margin-top: 15px;
     margin-bottom: 20px;
   }
+  .work__workingCategoryWrapper {
+    gap: 20px;
+    justify-content: center;
+  }
+  .work__workingCategory {
+    padding: 8px 14px;
+  }
   /* === work 2 section === */
   /* === team === */
   #team {
@@ -469,4 +476,4 @@
 /* ========================= device (xxl 1400 >>) ========================= */
 /* ======== responsive css ======== */
 
-/* ===== design by AJOY SAHA ===== */
+/* === >>>>> Design by Ajoy Saha <<<<< ===  */
